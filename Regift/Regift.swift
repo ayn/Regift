@@ -338,7 +338,7 @@ public struct Regift {
             throw RegiftError.AddFrameToDestination
         }
         
-        CGImageDestinationSetProperties(destination, fileProperties as CFDictionary)
+        // CGImageDestinationSetProperties(destination, fileProperties as CFDictionary)
         
         // Finalize the gif
         if !CGImageDestinationFinalize(destination) {
