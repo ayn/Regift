@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "Regift"
-  s.version          = "1.5.0"
+  s.version          = "1.6.0"
   s.summary          = "Regift helps you easily convert a video to a GIF on iOS."
   s.description      = <<-DESC
                        Regift helps you easily convert a video to a GIF on iOS.
@@ -12,8 +12,8 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/matthewpalmer/Regift.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/_matthewpalmer'
 
-  s.ios.deployment_target = '8.0'
-  s.osx.deployment_target = '10.10'
+  s.ios.deployment_target = '11.1'
+  s.osx.deployment_target = '10.12'
 
   s.requires_arc = true
 
